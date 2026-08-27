@@ -4,20 +4,33 @@ weight: 2
 next: 
 ---
 
-{{< cards cols="1" >}}
+{{< cards >}}
   {{< card 
-    title="Fedora Upgrade Banner"
+    title="Upgrades"
     image=/images/banner.png
-    imageStyle="object-fit:cover; aspect-ratio:16/9;"
+    subtitle="This banner would encourage users to upgrade Fedora via Gnome Software when a new version is available."
+    tag="Fedora"
+    tagColor="red"
+  >}}
+  {{< card 
+    title="Updates"
+    image=/images/updates_tab.png
+    subtitle="Gnome Software had a dedicated page to manage updates and would send notifications when updats are available."
   >}}
 {{< /cards >}}
 
-When a new Fedora version was available it encouraged users to upgrade the system, which wouldn't work.
 
-Updates were already broken as they were done assuming Gnome Software would be able to restart the system, which can't happen in Qubes. Furthermore, Qubes already has native tools for updates that should be used instead.
+{{< callout type="error" >}}
+  Updates and updates didn't work in Qubes as they required Gnome Software itself to be able to restart the system, which is not possible.
+{{< /callout >}}
 
-Due to these issues, updates and upgrades via Gnome Software were disabled.
+## Solution
+Updates and upgrades were disables via gsettings, by overriding ```org.gnome.software allow-updates``` to ```false```.
 
 ---
+
+{{< cards cols="1" >}}
+  {{< card title="Summary" icon="clipboard-list" subtitle="Updates and upgrades via Gnome Software were disabled and Qubes native tools should be used instead." >}}
+{{< /cards >}}
 
 {{< cards >}} {{< card link=https://github.com/QubesOS/qubes-issues/issues/10984 title="Issue" icon="github" >}} {{< card link=https://github.com/QubesOS/qubes-core-agent-linux/pull/664 title="Pull Request" icon="code" >}} {{< /cards >}}

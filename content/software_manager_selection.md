@@ -201,7 +201,8 @@ Each software manager was evaluated against the following criteria.
 
 {{% /steps %}}
 
+---
 
-## Summary
-Gnome Software was selected as default the Software Manager in Qubes because comparing with the other solutions, it aligns UX, useful repos and an acceptable size. 
-It is very similar to KDE Discover, however it was chosen for being considerably lighter.
+{{< cards cols="1" >}}
+  {{< card title="Summary" icon="clipboard-list" subtitle="Gnome Software was selected as default the Software Manager in Qubes because comparing with the other solutions, it aligns UX, useful repos and an acceptable size. It is very similar to KDE Discover, however it was chosen for being considerably lighter." >}}
+{{< /cards >}}

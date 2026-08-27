@@ -1,14 +1,15 @@
 ---
 title: Open URLs in disposables
-weight: 3
+weight: 5
 next: 
 ---
 
 It aims to open Gnome Software URLs (project website, donation pages, etc.) in disposables.
 
-This allows the user to check the project website safely before installing apps, while reducing the need for screenshots to recognize the apps in Gnome Software ([qubes-issues#10983](https://github.com/QubesOS/qubes-issues/issues/10983)).
+This allows the user to check the project website safely before installing apps, while reducing the need for [screenshots](../screenshots) to recognize the apps in Gnome Software.
 
-Previously, URLs were opened in offline browsers. However, if Gnome Software had access to the updates proxy (e.g. for Flatpak related actions) it would pass the proxy configurations to the browser and open the URL online.
+{{< callout type="info" >}}
+Previously, in Qubes templates URLs were opened in offline browsers.  However, when integrating Gnome Software with Qubes, it needed access to the updates proxy for [Flatpak support](../flatpak), causing it to pass the proxy configurations to the browser and open URLs online.{{< /callout >}}
 
 ---
 
