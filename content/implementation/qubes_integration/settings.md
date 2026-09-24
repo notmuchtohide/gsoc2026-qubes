@@ -1,14 +1,15 @@
 ---
-title: Settings' integration
-weight: 8
-next: 
+title: Settings
+weight: 3
+next:
+type: docs
 ---
 
 A button integrated with Gnome Software was added to the `Applications` tab in qubes settings.
 
 {{< cards cols="1" >}}
   {{< card 
-    title="Add software button"
+    title="Install applications button"
     image=/images/gs_installed.png
   >}}
 {{< /cards >}}
@@ -16,7 +17,7 @@ A button integrated with Gnome Software was added to the `Applications` tab in q
 
 ## Gnome Software installed in template
 
-The `Add Software` button feature will only work if Gnome Software is already installed in the template.
+The `Install applications` button feature will only work if Gnome Software is already installed in the template.
 
 {{< cards >}}
   {{< card 
@@ -44,16 +45,16 @@ When pressed, the button automatically launches Gnome Software in the respective
 
 {{< cards >}}
   {{< card 
-    title="1️⃣ Add software button disabled"
+    title="1️⃣ Install applications button disabled"
     image="/images/gs_not_installed_focus.png"
   >}}
     {{< card 
-    title="2️⃣ Add software button tooltip"
+    title="2️⃣ Install applications button tooltip"
     image="/images/tooltip_focus.png"
   >}}
 {{< /cards >}}
 
-The `Add software` button is disabled, as Gnome Software is not installed. The user is informed about it in the tolltip.
+The `Install applications` button is disabled, as Gnome Software is not installed. The user is informed about it in the tolltip.
 
 ---
 

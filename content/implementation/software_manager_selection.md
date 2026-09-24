@@ -14,16 +14,19 @@ The following software managers were evaluated as candidates for working in Qube
     title="dnfdragora"
     image=/images/dnfdragora.png
     imageStyle="object-fit:cover; aspect-ratio:16/9;"
+    link=https://github.com/manatools/dnfdragora
   >}}
   {{< card 
     title="synaptic"
     image=/images/synaptic.png
     imageStyle="object-fit:cover; aspect-ratio:16/9;"
+    link=https://github.com/mvo5/synaptic
   >}}
   {{< card 
     title="KDE Discover"
     image=/images/kde-discover.png
     imageStyle="object-fit:cover; aspect-ratio:16/9;"
+    link=https://apps.kde.org/discover/
   >}}
   {{< card 
     title="Gnome Software"
@@ -32,6 +35,7 @@ The following software managers were evaluated as candidates for working in Qube
     tag="Selected"
     tagColor="blue"
     tagIcon="sparkles"
+    link=https://apps.gnome.org/Software/
   >}}
 {{< /cards >}}
 

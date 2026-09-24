@@ -1,7 +1,7 @@
 ---
 title: Flatpak Support
 weight: 7
-next: 
+next: settings
 ---
 
 Flatpak has become a popular format and Gnome Software officially supports it. With the proxy change mentioned before, flatpaks work, but some nuances exist depending on the template.

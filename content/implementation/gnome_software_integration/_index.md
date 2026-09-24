@@ -1,8 +1,9 @@
 ---
 title: Gnome Software Integration
-weight: 3
+weight: 2
 cascade:
   type: docs
+next: packagekit
 
 ---
 When selecting a Software Manager, the criteria was based on each software funcionalities when working with their full capabilities. However, some integrations were needed to provide relevant features in Qubes OS templates.
